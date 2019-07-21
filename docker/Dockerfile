@@ -16,9 +16,7 @@ RUN pipenv install -d --system
 
 COPY docker/motd/motd /etc/motd
 
-COPY docker/sshd/setup.sh /root/setup_sshd.sh
-RUN bash /root/setup_sshd.sh
+COPY docker_comm/debug/setup.sh /root/setup_debug.sh
+RUN bash /root/setup_debug.sh stickybeak
 
-COPY docker/supervisor/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
-
-USER stickybeak
+COPY docker_comm/supervisor/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
