@@ -1,0 +1,98 @@
+################################################################################
+# This requirements file has been automatically generated from `Pipfile` with
+# `pipenv-to-requirements`
+#
+#
+# This has been done to maintain backward compatibility with tools and services
+# that do not support `Pipfile` yet.
+#
+# Do NOT edit it directly, use `pipenv install [-d]` to modify `Pipfile` and
+# `Pipfile.lock` and then regenerate `requirements*.txt`.
+################################################################################
+
+-e .
+appdirs==1.4.3
+asgiref==3.2.2
+aspy.yaml==1.3.0
+atomicwrites==1.3.0
+attrs==19.1.0
+backcall==0.1.0
+black==19.3b0
+bleach==3.1.0
+certifi==2019.9.11
+cfgv==2.0.1
+chardet==3.0.4
+click==7.0
+coverage==5.0a7
+decorator==4.4.0
+django-health-check==3.11.0
+django-stubs==1.1.0
+django==3.0a1
+djangorestframework-stubs==1.0.0
+djangorestframework==3.10.3
+docutils==0.15
+entrypoints==0.3
+flake8-import-order==0.18.1
+flake8==3.7.8
+flask==1.1.1
+furl==2.1.0
+honcho==1.0.1
+identify==1.4.7
+idna==2.8
+importlib-metadata==0.23 ; python_version < '3.8'
+ipython-genutils==0.2.0
+ipython==7.8.0
+isort==4.3.21
+itsdangerous==1.1.0
+jedi==0.15.1
+jinja2==2.10.1
+markupsafe==1.1.1
+mccabe==0.6.1
+more-itertools==7.2.0
+mypy-extensions==0.4.1
+mypy==0.720
+nodeenv==1.3.3
+orderedmultidict==1.0.1
+packaging==19.2
+parso==0.5.1
+pbr==5.4.3
+pexpect==4.7.0 ; sys_platform != 'win32'
+pickleshare==0.7.5
+pipenv-to-requirements==0.8.2
+pipenv==2018.11.26
+pkginfo==1.5.0.1
+pluggy==0.13.0
+pre-commit==1.18.3
+prompt-toolkit==2.0.9
+ptyprocess==0.6.0
+py==1.8.0
+pycodestyle==2.5.0
+pyflakes==2.1.1
+pygments==2.4.2
+pyparsing==2.4.2
+pytest-cov==2.7.1
+pytest-env==0.6.2
+pytest-mock==1.11.0
+pytest-mypy==0.4.1
+pytest==5.1.3
+pytz==2019.2
+pyyaml==5.1.2
+readme-renderer==24.0
+requests-toolbelt==0.9.1
+requests==2.22.0
+rstcheck==3.3.1
+six==1.12.0
+sqlparse==0.3.0
+toml==0.10.0
+tqdm==4.36.1
+traitlets==4.3.3.dev0
+twine==2.0.0
+typed-ast==1.4.0
+typing-extensions==3.7.4
+urllib3==1.25.6
+virtualenv-clone==0.5.3
+virtualenv==16.7.5
+wcwidth==0.1.7
+webencodings==0.5.1
+werkzeug==0.16.0
+zipp==0.6.0

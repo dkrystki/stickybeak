@@ -1,0 +1,28 @@
+################################################################################
+# This requirements file has been automatically generated from `Pipfile` with
+# `pipenv-to-requirements`
+#
+#
+# This has been done to maintain backward compatibility with tools and services
+# that do not support `Pipfile` yet.
+#
+# Do NOT edit it directly, use `pipenv install [-d]` to modify `Pipfile` and
+# `Pipfile.lock` and then regenerate `requirements*.txt`.
+################################################################################
+
+asgiref==3.2.2
+certifi==2019.9.11
+chardet==3.0.4
+click==7.0
+django==3.0a1
+djangorestframework==3.10.3
+flask==1.1.1
+idna==2.8
+itsdangerous==1.1.0
+jinja2==2.10.1
+markupsafe==1.1.1
+pytz==2019.2
+requests==2.22.0
+sqlparse==0.3.0
+urllib3==1.25.6
+werkzeug==0.16.0
