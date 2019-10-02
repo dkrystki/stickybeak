@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+set -euxo pipefail
+
+cd /srv
+sudo pipenv run python setup.py sdist
+sudo pipenv run python setup.py bdist_wheel
+
